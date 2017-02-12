@@ -15,7 +15,7 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="responsesavepath" elementType="Argument">
             <stringProp name="Argument.name">responsesavepath</stringProp>
-            <stringProp name="Argument.value">/Users/mtime_live/.jenkins/workspace/API-online/report</stringProp>
+            <stringProp name="Argument.value">/Users/mtime_live/.jenkins/workspace/Mtime_API/report</stringProp>
             <stringProp name="Argument.desc">响应数据保存路径</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
