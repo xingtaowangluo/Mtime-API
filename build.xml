@@ -46,7 +46,7 @@
               force="true"
               in="${jmeter.result.jtlName}"
               out="${jmeter.result.htmlName}"
-              style="${jmeter.home}/extras/jmeter-results-detail-report_21.xsl">
+              style="${jmeter.home}/extras/jmeter.results.shanhe.me.xsl">
               <param name="dateReport" expression="${report.datestamp}"/>
               <param name="titleReport" expression="${report.title}:${report.datestamp}"/>
 
