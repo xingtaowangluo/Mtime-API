@@ -39,7 +39,7 @@
           </elementProp>
           <elementProp name="on-liveid" elementType="Argument">
             <stringProp name="Argument.name">on-liveid</stringProp>
-            <stringProp name="Argument.value">268</stringProp>
+            <stringProp name="Argument.value">303</stringProp>
             <stringProp name="Argument.desc">直播中的直播id</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
@@ -57,7 +57,7 @@
           </elementProp>
           <elementProp name="videoId" elementType="Argument">
             <stringProp name="Argument.name">videoId</stringProp>
-            <stringProp name="Argument.value">929</stringProp>
+            <stringProp name="Argument.value">982</stringProp>
             <stringProp name="Argument.desc">有效的直播机位</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
