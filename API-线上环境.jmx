@@ -171,13 +171,13 @@
           </elementProp>
           <elementProp name="Pro_nickname" elementType="Argument">
             <stringProp name="Argument.name">Pro_nickname</stringProp>
-            <stringProp name="Argument.value">Alex Zhang</stringProp>
+            <stringProp name="Argument.value">产品测试</stringProp>
             <stringProp name="Argument.desc">Pro用户昵称</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="Pro_userId" elementType="Argument">
             <stringProp name="Argument.name">Pro_userId</stringProp>
-            <stringProp name="Argument.value">243</stringProp>
+            <stringProp name="Argument.value">32</stringProp>
             <stringProp name="Argument.desc">Pro用户id</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
@@ -7453,7 +7453,7 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">mobileNo=15911157115&amp;password=mtime1989</stringProp>
+                <stringProp name="Argument.value">mobileNo=13552460127&amp;password=12345678</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
             </collectionProp>
@@ -7978,15 +7978,15 @@
               <stringProp name="123">{</stringProp>
               <stringProp name="-26844409">&quot;avator&quot;:&quot;&quot;,</stringProp>
               <stringProp name="2053085474">&quot;content&quot;:&quot;${content4}&quot;,</stringProp>
-              <stringProp name="-2000201994">&quot;nickname&quot;:&quot;${Pro_nickname}&quot;,</stringProp>
+              <stringProp name="571359342">&quot;nickname&quot;:&quot;Alex Zhang&quot;,</stringProp>
               <stringProp name="175134395">&quot;replyCount&quot;:0,</stringProp>
-              <stringProp name="-305770802">&quot;userId&quot;:${Pro_userId}</stringProp>
+              <stringProp name="1386676977">&quot;userId&quot;:243</stringProp>
               <stringProp name="125">}</stringProp>
               <stringProp name="2927">],</stringProp>
               <stringProp name="2053055683">&quot;content&quot;:&quot;${content3}&quot;,</stringProp>
               <stringProp name="-1627547950">&quot;id&quot;:${Pro_parentId},</stringProp>
-              <stringProp name="-2000201994">&quot;nickname&quot;:&quot;${Pro_nickname}&quot;,</stringProp>
-              <stringProp name="-305770802">&quot;userId&quot;:${Pro_userId}</stringProp>
+              <stringProp name="571359342">&quot;nickname&quot;:&quot;Alex Zhang&quot;,</stringProp>
+              <stringProp name="1386676977">&quot;userId&quot;:243</stringProp>
               <stringProp name="3919">},</stringProp>
               <stringProp name="1629528021">&quot;msg&quot;:&quot;&quot;,</stringProp>
               <stringProp name="1824202362">&quot;showMsg&quot;:&quot;&quot;</stringProp>
@@ -8441,7 +8441,6 @@
               <stringProp name="2053055683">&quot;content&quot;:&quot;${content3}&quot;,</stringProp>
               <stringProp name="-2000201994">&quot;nickname&quot;:&quot;${Pro_nickname}&quot;,</stringProp>
               <stringProp name="175134395">&quot;replyCount&quot;:0,</stringProp>
-              <stringProp name="-813409720">&quot;showTime&quot;:&quot;刚刚&quot;,</stringProp>
               <stringProp name="-305770802">&quot;userId&quot;:${Pro_userId}</stringProp>
               <stringProp name="3919">},</stringProp>
             </collectionProp>
@@ -8449,15 +8448,6 @@
             <boolProp name="Assertion.assume_success">false</boolProp>
             <intProp name="Assertion.test_type">16</intProp>
           </ResponseAssertion>
-          <hashTree/>
-          <com.atlantbh.jmeter.plugins.jsonutils.jsonpathassertion.JSONPathAssertion guiclass="com.atlantbh.jmeter.plugins.jsonutils.jsonpathassertion.gui.JSONPathAssertionGui" testclass="com.atlantbh.jmeter.plugins.jsonutils.jsonpathassertion.JSONPathAssertion" testname="刚刚发表的评论" enabled="true">
-            <stringProp name="JSON_PATH">$.data.list[0].showTime</stringProp>
-            <stringProp name="EXPECTED_VALUE">刚刚</stringProp>
-            <boolProp name="JSONVALIDATION">true</boolProp>
-            <boolProp name="EXPECT_NULL">false</boolProp>
-            <boolProp name="INVERT">false</boolProp>
-            <boolProp name="ISREGEX">true</boolProp>
-          </com.atlantbh.jmeter.plugins.jsonutils.jsonpathassertion.JSONPathAssertion>
           <hashTree/>
           <ResultCollector guiclass="AssertionVisualizer" testclass="ResultCollector" testname="断言结果" enabled="true">
             <boolProp name="ResultCollector.error_logging">false</boolProp>
